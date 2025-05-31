@@ -1,0 +1,27 @@
+# ––– Customer set and coordinates –––
+set N := 1 2 3 4;
+
+param x :=
+    1   0.0
+    2   1.0
+    3   2.0
+    4   3.0
+;
+
+param y :=
+    1   0.0
+    2   1.0
+    3   2.0
+    4   3.0
+;
+
+# ––– Depot coordinates –––
+param x0 := 1.5;
+param y0 := 1.5;
+
+# ––– Fleet size –––
+param K := 2;
+
+# ––– regression coefficients –––
+param alpha := 2.791;
+param beta  := 0.2669;
