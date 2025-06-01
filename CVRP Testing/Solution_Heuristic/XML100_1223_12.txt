@@ -1,0 +1,10 @@
+Gurobi 12.0.1:   alg:cutoff = 14057.2
+  lim:time = 18000
+Gurobi 12.0.1: time limit, without a feasible solution
+3.2362e+07 simplex iterations
+680111 branching nodes
+
+c:\Users\catst\OneDrive - Rensselaer Polytechnic Institute\VRP CheatCode\VRP Exploration GIT\RPI-VRP-Heuristic-Exploration\CVRP Testing\Data\Scripts\run_XML100_1223_12.run, line 7 (offset 453):
+	syntax error
+context:  write assign  >>> >  <<< "c:\Users\catst\OneDrive - Rensselaer Polytechnic Institute\VRP CheatCode\VRP Exploration GIT\RPI-VRP-Heuristic-Exploration\CVRP Testing\Solution_Heuristic\XML100_1223_12_assign.txt";
+

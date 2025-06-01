@@ -84,12 +84,6 @@ var g_val   {k in K_veh} >= 0;
 s.t. OnePerNode {i in N}:
     sum {k in K_veh} assign[i,k] = 1;
 
-# Enforce “balanced” number of customers per route (optional)
-s.t. SizeMin {k in K_veh}:
-    sum {i in N} assign[i,k] >= floor_size;
-s.t. SizeMax {k in K_veh}:
-    sum {i in N} assign[i,k] <= ceil_size;
-
 # Define cluster_size = 1 (depot) + (#customers assigned)
 s.t. DefClusterSize {k in K_veh}:
     cluster_size[k] = 1 + sum {i in N} assign[i,k];
