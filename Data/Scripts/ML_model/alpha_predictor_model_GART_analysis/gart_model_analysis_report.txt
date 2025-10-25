@@ -1,0 +1,60 @@
+--- Model Analysis Report: GART Model ---
+
+[Section 1: Model Hyperparameters]
+
+All Model Parameters:
+- boosting_type: gbdt
+- class_weight: None
+- colsample_bytree: 1.0
+- importance_type: split
+- learning_rate: 0.04995489151920362
+- max_depth: -1
+- min_child_samples: 20
+- min_child_weight: 0.001
+- min_split_gain: 0.0
+- n_estimators: 2000
+- n_jobs: 1
+- num_leaves: 286
+- objective: regression_l1
+- random_state: 42
+- reg_alpha: 0.0
+- reg_lambda: 0.0
+- subsample: 1.0
+- subsample_for_bin: 200000
+- subsample_freq: 0
+- metric: mae
+
+[Section 2: Test Set Performance]
+
+Performance Metrics:
+  GART Prediction -> R²: 0.9454, MAE: 0.0396
+
+[Section 3: Feature Importance Analysis]
+
+Full Feature Ranking by Importance:
+                feature  importance
+       one_nn_dist_mean       53950
+   pca_eigenvalue_ratio       48414
+        one_nn_dist_std       47501
+        coord_std_dev_y       46862
+        coord_std_dev_x       46632
+  convex_hull_perimeter       41304
+    avg_dist_from_depot       39980
+    max_dist_from_depot       38219
+                      n       38206
+       convex_hull_area       37382
+      bounding_box_area       33461
+             hull_ratio       32666
+         mst_degree_std       27971
+mst_leaf_nodes_fraction       24608
+      hull_vertex_count        9787
+         mst_degree_max        3057
+        mst_degree_mean           0
+
+[Section 4: Residual and Regression Plots]
+
+Plots saved to the analysis directory for visual inspection:
+
+Analysis plots generated successfully.
+
+--- Analysis Complete for GART Model ---

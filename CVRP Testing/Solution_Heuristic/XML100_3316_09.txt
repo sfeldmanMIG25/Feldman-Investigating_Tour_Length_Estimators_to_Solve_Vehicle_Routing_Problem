@@ -1,4 +1,0 @@
-Gurobi 12.0.1:   alg:cutoff = 13817.9
-  lim:time = 18000
-
-<BREAK> (solver)
