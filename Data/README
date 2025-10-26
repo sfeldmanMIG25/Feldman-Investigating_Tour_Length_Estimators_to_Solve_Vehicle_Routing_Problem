@@ -13,8 +13,4 @@ Ex: "python generate.py 200 2 1 4 5 1 0" produces XML200_2145_01.vrp (call "pyth
 
 Script genXML100.sh produces the original XML100 instances, if run with Python 2.7.  Running with Python versions  >= 3 produces different instances.
 
-References
-Lysgaard, J. et al. 2004. A new branch-and-cut algorithm for the capacitated vehicle routing problem. Math. Program., 100(2): 423–445.
-Pessoa, A. et al. 2020. A generic exact solver for vehicle routing and related problems. Math. Program., 183(1): 483–523.
-Subramanian, A. et al. 2011. Branch-and-cut with lazy separation for the vehicle routing problem with simultaneous pickup and delivery. Operations Research Letters 39.5, pp. 338–341.
-Vidal, T. 2022. Hybrid genetic search for the CVRP: Open-source implementation and SWAP* Neighborhood. Computers & Operations Research 140, p. 105643.
+The datasets are currently zipped alongside all the solutions. Please unzip to access. Leave them in in the data level. The code is designed to work based on relative directory locations. Unzipping the files elsewhere will disrupt operations.
